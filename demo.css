@@ -34,6 +34,7 @@
 .d-hero.blinds-closed .d-hero-vignette { box-shadow: inset 0 0 140px 60px rgba(0,0,0,.75); }
 .d-hero::before { z-index: 0; }
 .d-hero > * { position: relative; z-index: 1; }
+.d-hero > .d-hero-bg, .d-hero > .d-hero-vignette { position: absolute; z-index: 0; }
 .d-hero-main { margin-top: auto; }
 .d-hero-btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .d-btn-gold { background: #c9a96e; color: #0b0b0c !important; border-color: #c9a96e; margin-top: 0; }
