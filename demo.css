@@ -164,3 +164,6 @@ html.a11y-contrast .d-form input, html.a11y-contrast .d-form textarea { border-c
 /* Footer alignment: right in Hebrew (RTL), left in English (LTR) */
 .d-foot-grid, .d-foot-brand, .d-foot-col, .d-foot-col h3, .d-foot-col a, .d-foot-col address, .d-foot-area, .d-foot-brand p { text-align: start !important; }
 .d-foot-soc { justify-content: flex-start; }
+html[dir="rtl"] .d-foot { direction: rtl; }
+html[dir="ltr"] .d-foot { direction: ltr; }
+.d-foot-grid { width: 100%; }
