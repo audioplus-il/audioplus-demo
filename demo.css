@@ -173,5 +173,5 @@ html[dir="ltr"] .d-foot { direction: ltr; }
 .d-dealer{max-width:calc(100% - 32px);box-sizing:border-box}
 @media (max-width:640px){.d-dealer{flex-wrap:nowrap;gap:14px;padding:14px 16px}.d-dealer img{height:22px;width:100px;flex:0 0 auto}.d-dealer-txt{min-width:0;flex:1 1 auto}.d-dealer-v{white-space:normal;overflow-wrap:anywhere;font-size:.8rem;display:block;line-height:1.3}}
 
-.d-award{flex-direction:column;border:0;background:none;padding:0;gap:12px;margin-top:40px}.d-award img{width:200px;height:200px;filter:none}.d-award .d-dealer-txt{border:0;padding:0;align-items:center;text-align:center}
-@media (max-width:640px){.d-award{flex-direction:column;padding:0}.d-award img{width:180px;height:180px}.d-award .d-dealer-txt{flex:none}}
+.d-award{flex-direction:column;border:0;background:none;padding:0;gap:12px;margin-top:40px}.d-award img{width:220px;height:194px;filter:none}.d-award .d-dealer-txt{border:0;padding:0;align-items:center;text-align:center}
+@media (max-width:640px){.d-award{flex-direction:column;padding:0}.d-award img{width:200px;height:176px}.d-award .d-dealer-txt{flex:none}}
