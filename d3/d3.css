@@ -302,6 +302,7 @@ html.a11y-contrast .d3-trust-k, html.a11y-contrast .d3-card-num { color: #ffe600
 
 /* Mobile: keep fixed WhatsApp/a11y floats clear of content */
 @media (max-width: 899px) {
+  .d3-hero { min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 150px; }  /* content rests above the fixed floats */
   .d3-trust { margin-top: 26px; }               /* strip starts below the hero fold, not under the floats */
   .d3-trust-grid { margin-bottom: 8px; }
   .d3-contact { padding-bottom: 150px; }         /* mail/whatsapp buttons clear the floats at section end */
