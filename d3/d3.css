@@ -299,3 +299,13 @@ html[dir="ltr"] .d-foot { direction: ltr; }
 /* Contrast-mode support for new d3 components */
 html.a11y-contrast .d3-trust-grid, html.a11y-contrast .d3-form-panel, html.a11y-contrast .d3-card { background: #000 !important; }
 html.a11y-contrast .d3-trust-k, html.a11y-contrast .d3-card-num { color: #ffe600 !important; }
+
+/* Mobile: keep fixed WhatsApp/a11y floats clear of content */
+@media (max-width: 899px) {
+  .d3-trust { margin-top: 26px; }               /* strip starts below the hero fold, not under the floats */
+  .d3-trust-grid { margin-bottom: 8px; }
+  .d3-contact { padding-bottom: 150px; }         /* mail/whatsapp buttons clear the floats at section end */
+  .d3-info-btns { padding-bottom: 8px; }
+  .d3-form-panel { margin-bottom: 12px; }
+  .lp-foot, .d-foot, footer { padding-bottom: 110px !important; }
+}
